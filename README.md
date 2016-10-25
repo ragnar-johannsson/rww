@@ -1,4 +1,4 @@
-## ResponseWriter Wrapper
+## ResponseWriter Wrapper [![GoDoc](https://godoc.org/github.com/ragnar-johannsson/rww?status.png)](https://godoc.org/github.com/ragnar-johannsson/rww)
 
 `rww` is a wrapper for `http.ResponseWriter` enabling response manipulation based on status codes specified downstream in the middleware chain, as well as getting some basic information about the response being sent out.
 
