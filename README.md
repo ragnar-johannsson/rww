@@ -52,7 +52,7 @@ redirector := func(h http.Handler) http.Handler {
             nil,
             // Headers to add to the response
             map[string]string{
-            "Location": u.String(),
+                "Location": u.String(),
             },
         )
     })
